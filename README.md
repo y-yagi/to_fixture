@@ -2,6 +2,9 @@
 
 Add `to_fixture` method to Active Record object.
 
+[![Build Status](https://travis-ci.org/y-yagi/to_fixture.svg?branch=master)](https://travis-ci.org/y-yagi/to_fixture)
+[![Gem Version](https://badge.fury.io/rb/to_fixture.svg)](http://badge.fury.io/rb/to_fixture)
+
 ## Installation
 
 Add this line to your application's Gemfile:
