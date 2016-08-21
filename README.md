@@ -34,7 +34,7 @@ puts user.to_fixture
 
 If you want to specify a label, pass the label name as an argument.
 
-```
+```ruby
 puts user.to_fixture("label")
 # =>
 # label:
