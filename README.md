@@ -1,6 +1,6 @@
 # ToFixture
 
-Add `to_fixture` method to Active Record object.
+Add `to_fixture` method to Active Record object. Result of `to_fixture` can directly use the fixture files.
 
 [![Build Status](https://travis-ci.org/y-yagi/to_fixture.svg?branch=master)](https://travis-ci.org/y-yagi/to_fixture)
 [![Gem Version](https://badge.fury.io/rb/to_fixture.svg)](http://badge.fury.io/rb/to_fixture)
