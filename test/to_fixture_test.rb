@@ -1,6 +1,10 @@
 require 'test_helper'
 
 class ToFixtureTest < Minitest::Test
+  def teardown
+    User.delete_all
+  end
+
   def test_to_fixture
     user = User.create!(name: 'to_fixture', email: 'to_fixture@example.com')
 
