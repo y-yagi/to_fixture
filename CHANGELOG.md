@@ -1,6 +1,6 @@
 # Change Log
 
-## [Unreleased](https://github.com/testdouble/suture/tree/HEAD)
+## [v0.2.0 (2016-09-17)](https://github.com/y-yagi/to_fixture/tree/HEAD)
 
 **Implemented enhancements:**
 
