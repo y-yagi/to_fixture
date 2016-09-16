@@ -42,6 +42,22 @@ puts user.to_fixture("label")
 #   email: to_fixture@example.com
 ```
 
+You can also use to `ActiveRecord::Relation`.
+
+```ruby
+User.create!(name: 'to_fixture_1', email: 'to_fixture1@example.com')
+User.create!(name: 'to_fixture_2', email: 'to_fixture2@example.com')
+puts User.all.to_fixture
+# =>
+# users_980190968:
+#   name: to_fixture_1
+#   email: to_fixture1@example.com
+#
+# users_980190969:
+#   name: to_fixture_2
+#   email: to_fixture2@example.com
+```
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
