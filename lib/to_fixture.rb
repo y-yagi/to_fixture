@@ -19,7 +19,12 @@ module ToFixture
     end
 
     def columns_for_fixture
-      self.class.column_names - all_timestamp_attributes.map(&:to_s) - %w(id)
+      timestamp_attributes = if respond_to?(:all_timestamp_attributes_in_model, true)
+                               all_timestamp_attributes_in_model
+                             else
+                               all_timestamp_attributes
+                             end
+      self.class.column_names - timestamp_attributes.map(&:to_s) - %w(id)
     end
   end
 
