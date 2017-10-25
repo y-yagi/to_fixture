@@ -7,5 +7,7 @@ rvm:
 gemfile:
   - gemfiles/active_record_42.gemfile
   - gemfiles/active_record_50.gemfile
+  - gemfiles/active_record_51.gemfile
+  - gemfiles/active_record_master.gemfile
 
 before_install: gem install bundler -v 1.12.5
