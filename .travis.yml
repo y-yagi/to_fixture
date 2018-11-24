@@ -13,4 +13,11 @@ gemfile:
   - gemfiles/active_record_52.gemfile
   - gemfiles/active_record_master.gemfile
 
+matrix:
+  exclude:
+    - rvm: 2.2.10
+      gemfile: gemfiles/active_record_master.gemfile
+    - rvm: 2.3.8
+      gemfile: gemfiles/active_record_master.gemfile
+
 before_install: gem install bundler
