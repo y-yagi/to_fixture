@@ -11,6 +11,7 @@ gemfile:
   - gemfiles/active_record_50.gemfile
   - gemfiles/active_record_51.gemfile
   - gemfiles/active_record_52.gemfile
+  - gemfiles/active_record_60.gemfile
   - gemfiles/active_record_master.gemfile
 
 matrix:
@@ -19,5 +20,11 @@ matrix:
       gemfile: gemfiles/active_record_master.gemfile
     - rvm: 2.3.8
       gemfile: gemfiles/active_record_master.gemfile
+    - rvm: 2.2.10
+      gemfile: gemfiles/active_record_60.gemfile
+    - rvm: 2.3.8
+      gemfile: gemfiles/active_record_60.gemfile
+    - rvm: 2.4.5
+      gemfile: gemfiles/active_record_60.gemfile
 
 before_install: gem install bundler
