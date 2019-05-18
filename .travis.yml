@@ -12,7 +12,6 @@ gemfile:
   - gemfiles/active_record_51.gemfile
   - gemfiles/active_record_52.gemfile
   - gemfiles/active_record_60.gemfile
-  - gemfiles/active_record_master.gemfile
 
 matrix:
   exclude:
